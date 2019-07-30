@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<title>Ilze's WEB</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<body>
+     
+    <div id="menus" class="overlay">
+        <a href="javascript:void(0)" class="close" onclick="closeMenu()">&times;</a>
+        <div class="overlay-content">
+                <a  href="#MUMS" onclick="closeMenu()">STĀSTS</a>
+                <a href="#sadarbiba">SADARBĪBA</a>
+                <a href="#veikals">VEIKALS</a>
+                <a href="#kontakti">KONTAKTI</a>
+        </div>
+    </div>
+
+   <div class="center">
+       <button onclick="openMenu()">WELCOME IN MY WORLD</button>
+   </div>
+    <script>
+    function openMenu(){
+        document.getElementById("menus").style.width="100%";
+    }
+    function closeMenu(){
+        document.getElementById("menus").style.width="0%";
+    }
+    </script>
+
+<div class="row" style="list-style-type:none; background-color: black; ">
+
+<!-- <div class="col-sm"><li><a href="#home">  LOGO</a></li></div> -->
+
+
+<div class="col-sm"> <li><a class="active" href="#MUMS">STĀSTS</a></li></div>
+<div class="col-sm"><li><a href="#sadarbiba">SADARBĪBA</a></li></div>
+<!--<div class="col-sm"><li><a href="#ziedot">ZIEDOT</a></li></div>-->
+<div class="col-sm"> <li><a href="#veikals">VEIKALS</a></li></div>
+<!-- <div class="col-sm"><li><a href="#jaunumi">JAUNUMI</a></li></div>
+<div class="col-sm"><li><a href="#projekti">PROJEKTI</a></li></div>-->
+<div class="col-sm"> <li><a href="#kontakti">KONTAKTI</a></li></div>
+          
+</div>
+<img src="pics/COVER2.jpg" alt="Dreams" class="responsive">
+
+<div id="MUMS" style="font-size:20px; padding:15px" >
+    Mans stāsts IT pasaulē sākās tālajā 2016. gadā, 
+    kad manā darba vietā ieradās man pašreizējais priekšnieks un teica, ka man jāstrādā EDDI.
+    Viņš mani kādu laiku bija vērojis. Tā nu nonācu IT uzņēmumā, pasaulē, kurā runā citā valodā.
+    Un sapratu, ka man patīk. Sāku meklēt iespējas, sākumā izgāju ITIL Foundation kursus, 
+    pēc tam sapratu, ka vēlos izmēģināt roku programmēšanā. Meklēju informāciju, mācījos ar māsasvīru,
+     līdz kādā dienā Riga Tech Girl 6 sievietēm deva iespēju mācīties programmēt bez maksas.
+    Tā nu kopā ar kolēģi rakstījām CV un motivācijas vēstuli:
+     <img src="pics/cv.JPG" alt="Dreams" class="responsive">
+     
+</div>
+
+
+</body>
+</html>
